@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+    font-size: 1.2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+#namespan{
+    font-size: 3rem;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.firstSection div {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 25px;
+    width: 50%;
+}
+
+.leftSection {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.rightSection {
+    text-align: center;
+}
+
+#myimg {
+    width: 50%;
+}
+
+.namespan {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navlinks{
+    text-decoration: none;
+    color: white;
+}
+
+.navlinks:active{
+    text-decoration: underline;
+}
+
+.navlinks:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+
+#lineBreak{
+    border: 2px solid white;
+    width: 70%;
+    margin: auto;
+    border-radius: 30px;
+}
+
+@media (max-width:600px) {
+    .firstSection{
+        font-size: 1rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #myimg{
+        width: 100%;
+    }
+    .rightSection{
+        width: 100vw;
+    }
+    .leftSection{
+        width: 100%;
+    }
+
+    nav {
+        padding: 12px;
+        flex-direction: column;
+    }
+
+}

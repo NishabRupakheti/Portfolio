@@ -91,6 +91,10 @@ nav ul li {
     border-radius: 30px;
 }
 
+.iconpack{
+    display: none;
+}
+
 @media (max-width:600px) {
     .firstSection{
         font-size: 1rem;
@@ -111,6 +115,19 @@ nav ul li {
     nav {
         padding: 12px;
         flex-direction: column;
+    }
+
+    .iconpack{
+        display: block;
+    }
+    .navlinks{
+        display: none;
+    }
+
+    .right ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
 }

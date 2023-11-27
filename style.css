@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
 
 * {
     padding: 0%;
@@ -117,9 +118,14 @@ main{
 }
 
 #hobbieText{
+    font-family: 'Titillium Web', sans-serif;
     text-align: center;
     text-decoration: underline;
     margin: 1vh 0;
+}
+
+.subpara {
+    font-size: 1.2em;
 }
 
 @media (max-width:600px) {
@@ -167,6 +173,7 @@ footer{
 }
 
 .footerdiv{
+    background-color: rgb(18, 18, 62);
     width: 25%;
     padding: 1rem;
     border: 2px solid;
@@ -205,10 +212,6 @@ footer{
     }
 }
 
-#hobbiesMaindiv{
-
-}
-
 .hobbiespng{
     width: 40%;
     background-color: none;
@@ -242,4 +245,30 @@ footer{
         width: 80%;
     }
 }
+
+#nametext{
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all ease 1s;
+
+}
+
+#nametext:hover{
+    text-decoration: underline;
+    font-size: 1.6rem;
+}
+
+
+.portotext , .academicsHeading{
+    font-size: 1.5em;
+    font-family: 'Titillium Web', sans-serif;
+    width: 80%;
+    padding: 25px; 
+    margin: 1rem auto;
+    text-align: center;
+
+}
+
 

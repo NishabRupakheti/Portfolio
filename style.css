@@ -196,6 +196,7 @@ footer{
         display: block;
         text-align: center;
         width: 90%;
+        border-radius: 0px;
         margin-top: 1rem;
     }
     footer{
@@ -218,8 +219,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid;
-    flex-wrap: wrap;
+    flex-wrap:wrap-reverse;
 }
 
 .text{
@@ -233,3 +233,13 @@ footer{
     text-align: center;
     padding: 2rem;
 }
+
+@media (max-width:819px) {
+    .insidehobby{
+        padding:1rem;
+    }
+    .text{
+        width: 80%;
+    }
+}
+

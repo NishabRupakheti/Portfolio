@@ -21,6 +21,7 @@ nav {
     height: 80px;
     background-color: rgb(18, 18, 62);
     font-size: 1.2rem;
+
 }
 
 nav ul {
@@ -38,6 +39,12 @@ nav ul li {
 .left {
     font-family: 'Rajdhani', sans-serif;
     font-size: 1.5rem;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+
+.left:hover{
+    transform: scale(1.2);
 }
 
 #namespan{
@@ -110,9 +117,12 @@ main{
     margin-top: 20px;
     text-align: center;
 }
-
+#aboutskill{
+    margin-top: 20px;
+    text-align: center;
+}
 .metext{
-    width: 80%;
+    width: 70%;
     margin: 10px auto;
     font-size: 1.2rem;
 }
@@ -262,7 +272,7 @@ footer{
 
 
 .portotext , .academicsHeading{
-    font-size: 1.5em;
+    font-size: 1.2rem;
     font-family: 'Titillium Web', sans-serif;
     width: 80%;
     padding: 25px; 
@@ -271,4 +281,25 @@ footer{
 
 }
 
+.academicsHeading{
+    padding: 5px;
+    font-size: 1.5rem;
+}
 
+#arrow{
+    cursor: pointer;
+    height: 5em;
+    transition: all ease 1s;
+    margin: 9px;
+}
+
+#arrow:hover{
+    transform: rotate(-45deg);
+}
+
+#returntotop{
+    line-height: 1rem;
+    margin-top: 1em;
+
+    text-align: center;
+}

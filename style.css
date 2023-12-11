@@ -102,7 +102,7 @@ main{
     text-decoration: underline;
 }
 
-#lineBreak{
+.lineBreak{
     border: 2px solid white;
     width: 70%;
     margin: auto;
